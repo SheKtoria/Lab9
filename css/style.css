@@ -1,0 +1,81 @@
+@import url(../oldCSS/normalize.css);
+body {
+  background: linear-gradient(to top right, #006363, #1D7373, #009999, #5CCCCC, #33CCCC) !important; }
+
+.header {
+  background-color: #1D7373; }
+  .header-text {
+    color: #fff; }
+  .header-element {
+    background-color: #009999; }
+    .header-element:hover {
+      background-color: #33CCCC; }
+    .header-element a {
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none; }
+      @media (max-width: calc(768px - 1px)) {
+        .header-element a {
+          display: inline-block; } }
+      .header-element a:hover {
+        text-decoration: underline; }
+
+.article {
+  background-color: #f3f3f3; }
+  .article-photo {
+    max-height: 450px; }
+  .article-link {
+    background-color: #009999;
+    padding: 15px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none; }
+    .article-link:hover {
+      background-color: #33CCCC;
+      text-decoration: underline; }
+
+.table {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #1D7373; }
+  .table-head {
+    background-color: #1D7373;
+    color: #fff; }
+  .table td {
+    text-align: center; }
+
+.teachers-list {
+  list-style-type: none; }
+  .teachers-list li {
+    font-size: 18px;
+    text-align: justify; }
+
+.teachers-section {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.about-photo {
+  max-height: 450px; }
+  @media (max-width: calc(768px - 1px)) {
+    .about-photo {
+      max-width: 60% !important; } }
+
+.news-photo {
+  max-width: 450px; }
+
+.photo {
+  max-height: 350px;
+  border-radius: 30px; }
+  @media (max-width: calc(768px - 1px)) {
+    .photo {
+      max-width: 60% !important; } }
+
+.heighter {
+  margin-top: auto; }
+
+.footer {
+  background-color: #1D7373;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%; }

@@ -1,0 +1,32 @@
+@import "vars";
+
+.header {
+  background-color: $two;
+
+  &-text {
+    color: #fff;
+  }
+
+  &-element {
+    background-color: $three;
+
+    &:hover {
+      background-color: $five;
+    }
+
+    & a {
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none;
+
+      @media(max-width: calc(#{$my} - 1px)) {
+        display: inline-block;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
